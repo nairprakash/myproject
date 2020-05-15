@@ -2,11 +2,12 @@ modules:
     paloalto_fw:
       version: 3
       auth:
-        username: snmpUser
-        password: MonitorC82hx
+        username: Networksnmp3
+        security_level: authPriv
+        password: 3fKvYFaGzUCjr
         auth_protocol: SHA
-        priv_protocol: authPriv
-        priv_password: AES
+        priv_protocol: AES
+        priv_password: A34XqzWKX4Kst
       walk:
         - sysUpTime
         - interfaces
